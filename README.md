@@ -2,6 +2,22 @@
 
 This is a repository for implementing introductory importance weghting for covariate shift adaptation in python.
 
-In statistical machine learning, training and test samples are required to be drawn from the same distribution.
-However, this assumption can be degraded in real world applications due to the passage of time or any other reasons.
-In order to make machine learning sysmtem robust to such changes, we can put weights on each trainging sample, indicating how each training sample is important for predictors to generalize.
+In statistical machine learning, it is assumed that training and test samples are drawn from the same distribution.
+However, in real world applications, this assumption may be violated due to the passage of time or any other reasons.
+To make machine learning sysmtem robust to such changes, we can put weights on each trainging sample, indicating their importance for enabling predictors to generalize during training.
+
+The importance of each training sample is derived from the ratio of test sample distribution to training sample distribution.
+Training samples with high ratio values are likely to be more informative, possessing features also present in test samples.
+By assigning an importance weight to each training sample, predictors can identify and prioritize the samples most relevant for test data during training.
+
+
+このリポジトリでは、共変量シフトにおける基本的な重要度重みづけをpythonで実装します。
+
+統計的機械学習では、訓練サンプルとテストサンプルが同じ分布から抽出されることが前提とされています。
+しかし、実世界に機械学習を適用する際、時間の経過やその他の理由により、この前提が満たされないことがあります。
+このような変化に対して機械学習システムを頑健にするために、各訓練サンプルに重みを付けることができます。
+この重みは、各訓練サンプルがどの程度重要か、予測器の汎化性能を向上させるために使用することができます。
+
+各訓練サンプルの重要度は、テストサンプルの分布と訓練サンプルの分布の密度比から導出されます。
+高い密度比を持つ訓練サンプルは、テストサンプルにも存在する特徴を持っている可能性が高く、より学習に有効であると考えられます。
+各訓練サンプルに重要度（密度比）を割り当てることで、予測器はテストデータに最も関連するサンプルを学習時に識別し、優先することができます。
