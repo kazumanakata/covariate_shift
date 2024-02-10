@@ -26,24 +26,29 @@ By assigning an importance weight to each training sample, predictors can identi
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/bc1690e2-411b-4727-8c6a-91750641a215">
 
 A target function and a distribution function.
+
 真の関数とサンプル分布関数.
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/0c8f0bda-51de-4da2-a31c-b2dc29152f40">
 
 Train and test sample distributions.
+
 訓練とテストサンプルの分布。
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/d18ce528-d130-4914-b95e-21dd5f3f2325">
 
 Plots of train and test samples.
+
 訓練とテストサンプルのプロット図。
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/f68258b9-0a74-4e5e-8b1e-764a50f663e7">
 
 The importance weight derived from the train and test distribution.
+
 訓練とテストサンプルの分布から得られる重要度(密度比)。
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/7e4410fe-d1a6-4e35-a14d-774b759e9d36">
 
 linear functions after SGD(Stochstic Gradient Descent) w/ and w/o importance weight adaptation.
+
 確率的勾配降下法による重要度重みづけを用いた時と用いないときの線形近似の結果。
