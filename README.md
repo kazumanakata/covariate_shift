@@ -40,5 +40,5 @@ The importance weight derived from the train and test distribution.<br>
 訓練とテストサンプルの分布から得られる重要度(密度比)。
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/7e4410fe-d1a6-4e35-a14d-774b759e9d36"><br>
-linear functions after SGD(Stochstic Gradient Descent) w/ and w/o importance weight adaptation.<br>
+Linear functions after SGD(Stochstic Gradient Descent) w/ and w/o importance weight adaptation.<br>
 確率的勾配降下法による重要度重みづけを用いた時と用いないときの線形近似の結果。
