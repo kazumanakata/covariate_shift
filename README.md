@@ -24,6 +24,7 @@ By assigning an importance weight to each training sample, predictors can identi
 
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/bc1690e2-411b-4727-8c6a-91750641a215">
+A target function and a distribution function.
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/0c8f0bda-51de-4da2-a31c-b2dc29152f40">
 
