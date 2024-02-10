@@ -21,3 +21,6 @@ By assigning an importance weight to each training sample, predictors can identi
 各訓練サンプルの重要度は、テストサンプルの分布と訓練サンプルの分布の密度比から導出されます。
 高い密度比を持つ訓練サンプルは、テストサンプルにも存在する特徴を持っている可能性が高く、より学習に有効であると考えられます。
 各訓練サンプルに重要度（密度比）を割り当てることで、予測器はテストデータに最も関連するサンプルを学習時に識別し、優先して学習に使用ことができます。
+
+
+https://github.com/kazumanakata/covariate_shift/assets/121463877/bc1690e2-411b-4727-8c6a-91750641a215
