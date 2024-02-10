@@ -23,4 +23,4 @@ By assigning an importance weight to each training sample, predictors can identi
 各訓練サンプルに重要度（密度比）を割り当てることで、予測器はテストデータに最も関連するサンプルを学習時に識別し、優先して学習に使用ことができます。
 
 
-https://github.com/kazumanakata/covariate_shift/assets/121463877/bc1690e2-411b-4727-8c6a-91750641a215
+<img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/bc1690e2-411b-4727-8c6a-91750641a215">
