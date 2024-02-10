@@ -24,3 +24,11 @@ By assigning an importance weight to each training sample, predictors can identi
 
 
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/bc1690e2-411b-4727-8c6a-91750641a215">
+
+<img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/0c8f0bda-51de-4da2-a31c-b2dc29152f40">
+
+<img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/d18ce528-d130-4914-b95e-21dd5f3f2325">
+
+<img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/f68258b9-0a74-4e5e-8b1e-764a50f663e7">
+
+<img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/7e4410fe-d1a6-4e35-a14d-774b759e9d36">
