@@ -1,6 +1,6 @@
 # covariate_shift
 
-This is a repository for implementing introductory importance weghting for covariate shift adaptation in python.
+This is a repository for implementing introductory importance weghting [1, 2] for covariate shift adaptation in python.
 
 In statistical machine learning, it is assumed that training and test samples are drawn from the same distribution.
 However, in real world applications, this assumption may be violated due to the passage of time or any other reasons.
@@ -42,3 +42,7 @@ The importance weight derived from the train and test distribution.<br>
 <img src="https://github.com/kazumanakata/covariate_shift/assets/121463877/7e4410fe-d1a6-4e35-a14d-774b759e9d36"><br>
 Linear functions after SGD(Stochstic Gradient Descent) w/ and w/o importance weight adaptation.<br>
 確率的勾配降下法による重要度重みづけを用いた時と用いないときの線形近似の結果。
+
+## Reference
+1. Hidetoshi Shimodaira: Improving predictive inference under covariate shift by weighting the log-likelihood function., Journal of Statistical Planning and Inference Volume 90, Issue 2, 1 October 2000, Pages 227-244.
+1. 杉山 将, 山田 誠, ドゥ・プレシ マーティヌス・クリストフェル, リウ ソン: 非定常環境下での学習：共変量シフト適応，クラスバランス変化適応，変化検知., 日本統計学会誌, vol.44, no.1, pp.113{136, 2014.
