@@ -45,4 +45,4 @@ Linear functions after SGD(Stochstic Gradient Descent) w/ and w/o importance wei
 
 ## Reference
 1. Hidetoshi Shimodaira: Improving predictive inference under covariate shift by weighting the log-likelihood function., Journal of Statistical Planning and Inference Volume 90, Issue 2, 1 October 2000, Pages 227-244.
-1. 杉山 将, 山田 誠, ドゥ・プレシ マーティヌス・クリストフェル, リウ ソン: 非定常環境下での学習：共変量シフト適応，クラスバランス変化適応，変化検知., 日本統計学会誌, vol.44, no.1, pp.113{136, 2014.
+1. 杉山 将, 山田 誠, ドゥ・プレシ マーティヌス・クリストフェル, リウ ソン: 非定常環境下での学習：共変量シフト適応，クラスバランス変化適応，変化検知., 日本統計学会誌, vol.44, no.1, pp.113-136, 2014.
